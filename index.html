@@ -6,18 +6,17 @@
     <title>bodymovin</title>
     <script src="js/bodymovin.min.js"></script>
 </head>
-<bodyy style="background-color:#ccc; margin: 0px;height: 100%; font-family: sans-serif;font-size: 10px">
+<bodyy style="background-color:#555; margin: 0px;height: 100%; font-family: sans-serif;font-size: 10px">
     <div style="width:100%;height:100%" id="bodymovin"></div>
     <script>
     var animData = {
         wrapper: document.getElementById('bodymovin'),
         //animType: 'html',
-        renderer: 'canvas',
+        //renderer: 'canvas',
         loop: true,
         prerender: true,
         autoplay: true,
         path: 'data.json'
-
     };
     var anim = bodymovin.loadAnimation(animData);
     </script>
